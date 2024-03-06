@@ -8,18 +8,20 @@
 
 #container::before,
 #container::after {
-  content: "Special Text";
+  content:"Before Element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
+  position: ;
 }
 
 #container::before {
   top: -30px;
   left: 0;
+	
 }
 
 #container::after {
+	content:"After element";
   bottom: -30px;
   right: 0;
 }
