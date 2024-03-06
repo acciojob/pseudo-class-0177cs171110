@@ -4,7 +4,6 @@
 #container {
   margin: 10px;
   position: relative;
-	display: inline;
 }
 
 #container::before,
